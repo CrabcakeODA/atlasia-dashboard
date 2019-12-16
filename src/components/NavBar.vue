@@ -1,6 +1,5 @@
 <template>
-  <v-card height="50vh">
-    <v-navigation-drawer absolute permanent left>
+    <v-navigation-drawer height="100vh" relative permanent left>
       <template v-slot:prepend>
         <v-list-item two-line>
           <v-list-item-avatar>
@@ -43,7 +42,6 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-  </v-card>
 </template>
 
 <script>

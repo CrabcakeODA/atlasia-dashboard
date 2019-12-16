@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <v-app>
-      <div class="">
-        <div class="">
-          <NavBar />
+      <v-card height="100vh">
+        <div class="router">
+          <NavBar/>
         </div>
-        <div class="page-content">
-          <router-view />
+        <div class="router">
+          <router-view/>
         </div>
-      </div>
+      </v-card>
     </v-app>
   </div>
 </template>
@@ -36,8 +36,8 @@ export default {
   text-align: left;
   color: #2c3e50;
 }
-#page-content {
-  position: absolute;
+
+.router {
   float: left;
 }
 </style>
